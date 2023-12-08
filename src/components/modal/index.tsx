@@ -6,7 +6,7 @@ import { Cinzel_Decorative } from "next/font/google";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
 
-import styles from './index.module.scss';
+import styles from "./index.module.scss";
 
 const cinzelDecorative = Cinzel_Decorative({
   weight: ["400", "700", "700"],

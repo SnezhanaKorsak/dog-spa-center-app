@@ -17,16 +17,16 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-                                     children,
-                                   }: {
+  children,
+}: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-    <body className={cormorant.className}>
-    <Header />
-    {children}
-    </body>
+      <body className={cormorant.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
