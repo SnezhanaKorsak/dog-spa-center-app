@@ -1,0 +1,33 @@
+$fontColorDark: #4c4c4b;
+$fontColorLight: #fff;
+
+$bgColor: #f3ded7;
+$bordersColor: #dfb2a9;
+$accentColor: #e89b93;
+$lightGray: #9b9b99;
+$bgWhiteColor: #fff;
+
+$gradient: radial-gradient(
+    39.26% 103.17% at 100% 51.91%,
+    #eec8bd 0,
+    #efc7bd 48.44%,
+    rgba(241, 204, 195, 0%) 100%
+  ),
+  radial-gradient(
+    15.13% 123.02% at 100% 92.37%,
+    #f2cdc4 0,
+    #eec9bf 57.81%,
+    rgba(241, 204, 195, 0%) 100%
+  ),
+  radial-gradient(
+    63.27% 42.03% at 75.8% 0,
+    #ecc7be 0,
+    #ecc7be 57.81%,
+    rgba(241, 204, 195, 0%) 100%
+  ),
+  radial-gradient(
+    212.6% 60.03% at 50% 61.2%,
+    #edc7be 0.99%,
+    #edc8bf 50.91%,
+    #f1cdc1 100%
+  );

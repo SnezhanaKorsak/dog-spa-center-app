@@ -1,0 +1,25 @@
+@import "../../styles/variables.module";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+
+  .image {
+    border: 6px solid $bordersColor;
+  }
+
+  .content {
+    width: 650px;
+    text-align: center;
+
+    .description {
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 64px;
+    }
+  }
+}

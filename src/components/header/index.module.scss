@@ -1,0 +1,29 @@
+@import "../../styles/variables.module";
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 140px 0 60px;
+
+    .logoFont {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+  }
+}
+
+.promo {
+  height: 50px;
+  background-color: $bgColor;
+  text-align: center;
+  font-size: 26px;
+  line-height: 50px;
+  font-weight: 700;
+}
