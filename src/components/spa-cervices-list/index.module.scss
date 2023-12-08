@@ -1,0 +1,22 @@
+@import "../../styles/variables.module";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+  .title {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .divider {
+    width: 40%;
+    height: 1px;
+    background-color: $lightGray;
+    margin-bottom: 40px;
+  }
+}
