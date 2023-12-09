@@ -8,7 +8,17 @@ export const typeDefs = gql`
     price: String!
   }
 
+  type PetProduct {
+    id: String!
+    category: String!
+    image: String!
+    description: String!
+    collection: String!
+    price: String!
+  }
+
   type Query {
     services: [Service]
+    getPetProducts: [PetProduct]
   }
 `;

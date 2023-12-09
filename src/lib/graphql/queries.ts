@@ -10,3 +10,16 @@ export const servicesQuery = gql`
     }
   }
 `;
+
+export const productsQuery = gql`
+  query {
+    getPetProducts {
+      id
+      category
+      image
+      description
+      collection
+      price
+    }
+  }
+`;

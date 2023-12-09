@@ -28,3 +28,8 @@ export const headerNavLinks = [
     title: "Contact Us",
   },
 ];
+
+export enum ProductsCategory {
+  DogCollars = "dog-collars",
+  PetCarriers = "animal-carry-ons",
+}

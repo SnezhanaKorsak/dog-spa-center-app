@@ -1,0 +1,24 @@
+@import "../../styles/variables.module";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 350px;
+
+  .image {
+    border: 4px solid $bordersColor;
+  }
+
+  .description {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .price {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+}
