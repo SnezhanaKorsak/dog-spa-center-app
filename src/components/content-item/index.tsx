@@ -12,6 +12,8 @@ export const ContentItem: React.FC<Props> = ({ item }) => {
   const { title, text, imageUrl } = item;
   const imageSrc = `/images/${imageUrl}.png`;
 
+  const formattedText = text.split("\n");
+
   return (
     <div className={styles.container}>
       <div>
@@ -25,7 +27,11 @@ export const ContentItem: React.FC<Props> = ({ item }) => {
         />
       </div>
 
-      <div className={styles.description}>{text}</div>
+      <div className={styles.description}>
+        {formattedText.map((item: string) => (
+          <p className={styles.paragraph}>{item}</p>
+        ))}
+      </div>
     </div>
   );
 };
