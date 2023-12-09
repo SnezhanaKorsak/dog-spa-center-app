@@ -13,3 +13,10 @@ export type PetProduct = {
   collection: string;
   price: string;
 };
+
+export type ContentItemType = {
+  id: number;
+  title?: string;
+  imageUrl: string;
+  text: string;
+};
