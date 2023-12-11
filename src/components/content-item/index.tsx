@@ -28,8 +28,10 @@ export const ContentItem: React.FC<Props> = ({ item }) => {
       </div>
 
       <div className={styles.description}>
-        {formattedText.map((item: string) => (
-          <p className={styles.paragraph}>{item}</p>
+        {formattedText.map((item: string, index) => (
+          <p key={index} className={styles.paragraph}>
+            {item}
+          </p>
         ))}
       </div>
     </div>

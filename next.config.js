@@ -13,4 +13,14 @@ module.exports = {
 
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "api-ninjas.com",
+        port: "",
+        pathname: "/images/dogs/**",
+      },
+    ],
+  },
 };
