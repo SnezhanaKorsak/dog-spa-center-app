@@ -23,3 +23,16 @@ export const productsQuery = gql`
     }
   }
 `;
+
+export const infoDogQuery = gql`
+  mutation searchDogInfo($searchParam: String!) {
+    searchDogInfo(searchParam: $searchParam) {
+      name
+      energy
+      image_link
+      good_with_other_dogs
+      good_with_strangers
+      min_life_expectancy
+    }
+  }
+`;

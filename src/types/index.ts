@@ -20,3 +20,12 @@ export type ContentItemType = {
   imageUrl: string;
   text: string;
 };
+
+export type InfoDogType = {
+  name: string;
+  energy: number;
+  image_link: string;
+  good_with_other_dogs: number;
+  good_with_strangers: number;
+  min_life_expectancy: number;
+};

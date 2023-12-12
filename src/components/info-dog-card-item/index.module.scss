@@ -1,0 +1,32 @@
+@import "../../styles/variables.module";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: $bgColor;
+  margin-bottom: 20px;
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .info {
+    font-size: 32px;
+    font-weight: 700;
+    color: $fontColorBlack;
+
+    & > p {
+      margin-bottom: 5px;
+    }
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 54px;
+    font-weight: 700;
+    color: $fontColorBlack;
+    text-align: center;
+  }
+}
